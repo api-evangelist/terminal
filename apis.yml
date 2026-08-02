@@ -1,8 +1,26 @@
 aid: terminal
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terminal.png
 name: Terminal
-description: Terminal is a company surfaced as a portfolio company of 8vc, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Terminal (terminal.io) is a talent platform for hiring vetted remote and nearshore
+  software engineers for full-time, contract, and contract-to-hire roles. It combines
+  AI-fluency assessment and technical vetting (accepting roughly the top 7% of applicants)
+  with Employer of Record (EOR) services that handle HR, payroll, and benefits across
+  180+ countries, sourcing engineers from Latin America, Canada, and Europe. Terminal
+  is a B2B staffing and hiring platform rather than an API provider — it publishes no
+  public developer API, SDK, or developer portal. Backed by 8VC and Lightspeed Venture
+  Partners; added to the API Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/terminal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Recruiting
+- Talent
+- Hiring
+- Software Engineering
+- Employer of Record
+- Remote Work
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,28 @@ maintainers:
 common:
 - type: Website
   url: https://terminal.io
+- type: Blog
+  url: https://www.terminal.io/blog
+- type: Support
+  url: https://www.terminal.io/contact
+- type: SignUp
+  url: https://app.terminal.io/onboarding
+- type: PrivacyPolicy
+  url: https://www.terminal.io/privacy-policy
+- type: TermsOfService
+  url: https://www.terminal.io/terms-of-use
+- type: WellKnown
+  url: well-known/terminal-well-known.yml
+- type: SecurityTxt
+  url: well-known/terminal-security.txt
+- type: VulnerabilityDisclosure
+  url: security/terminal-vulnerability-disclosure.yml
+- type: Security
+  url: security/terminal-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/terminal-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
